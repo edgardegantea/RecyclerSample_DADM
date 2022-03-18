@@ -28,8 +28,8 @@ class FlowersListViewModel(val dataSource: DataSource) : ViewModel() {
     val flowersLiveData = dataSource.getFlowerList()
 
     /* If the name and description are present, create new Flower and add it to the datasource */
-    fun insertFlower(flowerName: String?, flowerDescription: String?) {
-        if (flowerName == null || flowerDescription == null) {
+    fun insertFlower(flowerName: String?, flowerDescription: String?, aroma: String?, textura: String?, tamanio: String?, temporada: String?) {
+        if (flowerName == null || flowerDescription == null || aroma == null || textura == null || tamanio == null || temporada == null) {
             return
         }
 

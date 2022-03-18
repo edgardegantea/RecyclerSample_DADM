@@ -24,11 +24,9 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recyclersample.addFlower.AddFlowerActivity
 import com.example.recyclersample.flowerDetail.FlowerDetailActivity
 import com.example.recyclersample.R
-import com.example.recyclersample.addFlower.FLOWER_DESCRIPTION
-import com.example.recyclersample.addFlower.FLOWER_NAME
+import com.example.recyclersample.addFlower.*
 import com.example.recyclersample.data.Flower
 
 const val FLOWER_ID = "flower id"
@@ -86,8 +84,12 @@ class FlowersListActivity : AppCompatActivity() {
             intentData?.let { data ->
                 val flowerName = data.getStringExtra(FLOWER_NAME)
                 val flowerDescription = data.getStringExtra(FLOWER_DESCRIPTION)
+                val aroma = data.getStringExtra(FLOWER_AROMA)
+                val textura = data.getStringExtra(FLOWER_TEXTURA)
+                val tamanio = data.getStringExtra(FLOWER_TAMANIO)
+                val temporada = data.getStringExtra(FLOWER_TEMPORADA)
 
-                flowersListViewModel.insertFlower(flowerName, flowerDescription)
+                flowersListViewModel.insertFlower(flowerName, flowerDescription, aroma, textura, tamanio, temporada)
             }
         }
     }

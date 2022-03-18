@@ -48,20 +48,22 @@
         android:layout_height="20dp" />
 
     <TextView
-        android:id="@+id/tvTextura"
+        android:id="@+id/flower_detail_aroma"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:padding="16dp"
+        android:text="@string/aroma" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="20dp" />
 
     <TextView
-        android:id="@+id/tvAroma"
+        android:id="@+id/flower_detail_textura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:padding="16dp"
+        android:text="@string/textura" />
 
     <Button
         android:id="@+id/remove_button"

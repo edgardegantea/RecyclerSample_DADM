@@ -41,8 +41,8 @@ class FlowerDetailActivity : AppCompatActivity() {
         val flowerName: TextView = findViewById(R.id.flower_detail_name)
         val flowerImage: ImageView = findViewById(R.id.flower_detail_image)
         val flowerDescription: TextView = findViewById(R.id.flower_detail_description)
-        val flowerAroma: TextView = findViewById(R.id.tvAroma)
-        val flowerTextura: TextView = findViewById(R.id.tvTextura)
+        val flowerAroma: TextView = findViewById(R.id.flower_detail_aroma)
+        val flowerTextura: TextView = findViewById(R.id.flower_detail_textura)
         val removeFlowerButton: Button = findViewById(R.id.remove_button)
 
         val bundle: Bundle? = intent.extras

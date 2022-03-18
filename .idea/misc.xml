@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/pruebas/androidStudio/views-widgets/RecyclerViewKotlin/app/src/main/res/layout/add_flower_layout.xml" value="0.5" />
+        <entry key="..\:/pruebas/androidStudio/views-widgets/RecyclerViewKotlin/app/src/main/res/layout/add_flower_layout.xml" value="0.33" />
         <entry key="..\:/pruebas/androidStudio/views-widgets/RecyclerViewKotlin/app/src/main/res/layout/flower_detail_activity.xml" value="0.33645833333333336" />
+        <entry key="..\:/pruebas/androidStudio/views-widgets/RecyclerViewKotlin/app/src/main/res/layout/flower_item.xml" value="0.25364583333333335" />
       </map>
     </option>
   </component>

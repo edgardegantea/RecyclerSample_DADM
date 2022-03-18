@@ -59,5 +59,7 @@
     <string name="remove_this_flower">Remove this flower</string>
     <string name="aroma">Aroma</string>
     <string name="textura">Indique la textura de esta flor</string>
+    <string name="tamanio">Indicar tamaño de la flor</string>
+    <string name="temporada">Temporada</string>
 
 </resources>
